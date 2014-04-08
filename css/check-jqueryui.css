@@ -1,0 +1,19 @@
+#datepicker-user {
+    height: 240px;
+}
+#leftPanel {
+    width:240px;
+    float:left;
+}
+#rightPanel {
+    margin-left:240px;
+}
+#sheetList {
+    display: inline;
+}
+#sheetList li {
+    margin: 5px 0;
+}
+.text_hard_wrap {
+    overflow-wrap: break-word;
+}

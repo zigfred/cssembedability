@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check css conflicts for jQueryUI</title>
+    <link rel="stylesheet" href="css/check-jqueryui.css">
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/vader/jquery-ui.css">
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <!--<script type="text/javascript" src="http://build-master.jaspersoft.com:7580/jrs-pro-feature-amber-embedded-report/client/visualize.js"></script>
+    <script type="text/javascript" src="http://localhost:8080/jasperserver-pro/client/visualize.js"></script>-->
+    <script type="text/javascript" src="js/check-jqueryui.js"></script>
+</head>
+<body>
+<div id="leftPanel">
+    <a href="/">Home</a>
+    <a href="/jqueryui.html">jQueryUI</a>
+    <a href="/bootstrap3.html">Twitter Bootstrap 3</a>
+    <div id="datepicker-user"></div>
+    <div>
+        <button id="loadV">Load visualize</button>
+        <button id="loadNormalize">Load normalize css</button>
+        <button id="reloadList">Reload css list</button>
+        <ul id="sheetList"></ul>
+    </div>
+
+</div>
+<div id="rightPanel">
+    <div id="vis"></div>
+</div>
+
+</body>
+</html>
