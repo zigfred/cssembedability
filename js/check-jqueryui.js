@@ -9,7 +9,7 @@ window.addEventListener("load", function(){
 });
 
 function loadNormalize() {
-    $("head").append("<link rel='stylesheet' type='text/css' href='css/normalize.css' />");    $("#loadV").remove();
+    $("head").append("<link rel='stylesheet' type='text/css' href='css/normalize.css' />");
     $("#loadNormalize").remove();
 }
 function loadV() {
